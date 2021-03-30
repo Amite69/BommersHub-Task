@@ -1,0 +1,96 @@
+.MuiCard-root.custom-card {
+  background-color: #ECECEC;
+  color: #474747;
+  transition: all 0.5s ease-in-out;
+}
+
+.MuiCard-root.custom-card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.custom-card .text-content {
+  padding: 10px 0px 0px 0px;
+}
+
+.custom-card .title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.custom-card .card-image {
+  padding: 0px;
+}
+
+.custom-card p {
+  color: #474747;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-card .price {
+  color: #474747;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+.actions-content {
+  display: flex;
+  justify-content: center;
+}
+p.MuiTypography-root.basket-item-price.MuiTypography-body1 {
+  margin: auto;
+  color: #474747;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.actions-content h2 {
+  flex-grow: 1;
+}
+
+.actions-content .custom-button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background: #ffffff;
+  color:  #474747;
+  border: solid 1px gray;
+  cursor: pointer;
+  padding: 0px 26px;
+  border-radius: 0.25rem;
+  transition: 0.4s;
+  
+}
+
+.custom-card .custom-button:hover {
+  background: #474747;
+  color:  #ffffff;
+}
+
+
+.custom-card .custom-button svg {
+  margin-right: 10px;
+}
+
+.custom-card .increase-product-quantity {
+  color: #03dac5;
+  border-color: #03dac5;
+}

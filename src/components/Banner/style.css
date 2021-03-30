@@ -1,0 +1,84 @@
+.banner {
+  max-width: 1220px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: #ffffff;
+}
+.banner > .MuiContainer-root{
+  padding: 0px;
+}
+.banner > div > div {
+  align-items: center;
+}
+
+.banner .brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand > img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 565px;
+}
+.content{
+  padding: 50px 72px 0px !important;
+}
+
+.banner .title {
+  font-family: 'Raleway', sans-serif ;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 60px;
+  margin: 20px 0px 5px 0px;
+}
+.banner .sub-title{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  line-height: 25px;
+}
+.banner .paragraph{
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#474747;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  letter-spacing: 0.5px;
+  line-height: 33px;
+  padding: 40px 0px;
+}
+
+.banner a.shopping-button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background: #ffffff;
+  color:  #474747;
+  border: solid 1px #CCCCCC;
+  cursor: pointer;
+  padding: 0px 26px;
+  border-radius: 0.25rem;
+  transition: 0.4s;
+}
+.banner a.shopping-button:hover {
+  color: #1CCBD6;
+  border-color: #1CCBD6;
+}
+@media (min-width: 800px) {
+  .banner .title {
+    font-size: 32px;
+  }
+}

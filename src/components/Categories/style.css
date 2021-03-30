@@ -1,0 +1,20 @@
+#products {
+  max-width: 1220px;
+  padding: 120px 40px 30px 40px;
+  margin-top: 120px;
+  background-color: #fff;
+}
+.cat-title{
+  text-transform: uppercase;
+  font-size: 32px !important;
+  font-weight: 700  !important; 
+  letter-spacing: 7px  !important;
+  line-height: 45px  !important;
+}
+.MuiDivider-middle {
+  background:black !important;
+  height: 1px !important;
+}
+.gutter{
+  padding: 50px 0px;
+}

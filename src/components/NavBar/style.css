@@ -1,0 +1,106 @@
+.MuiAppBar-colorPrimary.custom-navbar {
+  background-color: #f2f2f2;
+  box-shadow: none;
+  padding: 28px 40px 0px 40px;
+}
+
+.MuiAppBar-colorPrimary.custom-navbar > div > div {
+  padding: 0;
+}
+.basket-wrapper {
+  flex-grow: 1;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+.basket-wrapper h2{
+  font-family: 'Source Sans Pro', sans-serif ;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 60px;
+  margin: 20px 0px 5px 0px;
+  color:#474747;
+}
+
+.custom-navbar .custom-title {
+  display: flex;
+}
+
+.custom-navbar .custom-title {
+  font-family: 'Source Sans Pro', sans-serif;;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 45px;
+  color: #474747;
+  text-decoration: none;
+}
+.basket-wrapper .dropdown{
+  margin: 0px 50px;
+}
+
+.basket-wrapper .dropbtn{
+  background-color:  #474747;
+  font-family: 'Source Sans Pro', sans-serif;;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+  cursor:pointer;
+  border: none;
+  padding: 5px 16px;
+  display: flex;
+  align-items: center;
+}
+
+
+.basket-wrapper .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.basket-wrapper .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.basket-wrapper .dropdown-content a {
+  font-family: 'Source Sans Pro', sans-serif;;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: #474747;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.basket-wrapper .dropdown-content a:hover {background-color: #f1f1f1}
+
+.basket-wrapper .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.basket-wrapper .custom-basket {
+  font-size:30px;
+  color: #474747;
+}
+.custom-badge{
+  transform: scale(0.75);
+}
+.basket-wrapper strong {
+  color: #474747;
+}
+
+

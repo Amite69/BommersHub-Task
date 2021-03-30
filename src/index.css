@@ -1,0 +1,26 @@
+/*-----------------
+    # Typography
+-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --main-color-one: #474747;
+  --white: #ffffff;
+  --bg-white:#f2f2f2;
+  --gray: #B3B3B3;
+  --dark-gray: #7d7d7d;
+  --source-font: 'Source Sans Pro', sans-serif;
+  --raleway-font: 'Raleway', sans-serif;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F2F2F2 !important;
+  color: #474747 !important;
+}
