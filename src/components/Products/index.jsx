@@ -11,9 +11,9 @@ const Products = ({ categories, addProduct }) => {
       <Banner />
         {categories.map((category) => {
           return(
-            <Container id="products">
+            <Container id="products" key={category.id}>
               <Divider variant="middle" />
-                <Typography className="cat-title" component="h2" align ="center" >
+                <Typography className="cat-title" component="h2" align ="center">
                   {category.name}
                 </Typography>
               <Divider variant="middle"/>

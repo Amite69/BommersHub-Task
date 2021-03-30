@@ -25,7 +25,6 @@ const Clothes = ({ categories, addProduct }) => {
                     ))}
                   </Grid>
                 </div>
-                
               </Container>
             );
           }
