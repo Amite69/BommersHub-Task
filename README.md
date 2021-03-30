@@ -1,16 +1,16 @@
-# Dwinatech-shop
-  It is an e-commerce application, create by using React.js (Hooks), Matrial-UI, Commerce.js and Stripe.js, created for education and learning purpose.
-  
-## Demo: 
-https://dwinatech-shop.netlify.app/
-  
-## How to develop it
-- Clone on your local machine by using `clone git@github.com:DwinaTech/DwinaTech-Shop.git`
-- Navigate into the main directory
-- Run `npm install` to install node modules
-- Run `npm start` to run it locally then will open automatclly on your browser on `localhost:3000` port
-- Run `npm run build` to create a production build
+#Create an simple ecommerce site using following requirements:
 
-## UI
-### Mobile, IPad and Desktop
-<img src="https://github.com/DwinaTech/public-images/blob/main/thumbnail/E-commerce-thumbnail.jpg?raw=true" alt="website-image" />
+#Pages:
+	1. Home page
+	2. Category pages (electronics, food, cloths, books)
+	3. Check out page
+
+1. Home page will show multiple products based on categories
+2. Category page will list all the product of that particular categories
+3. Checkout page show the items in the cart
+
+#Features:
+1. Users can search products using filters (product name, price range, category)
+2. Each product will have add to cart button, price, image, title 
+3. Add to cart, remove from cart features, total price update when adding/removing items in cart 
+
