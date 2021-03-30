@@ -45,7 +45,7 @@ const Cart = ({
       <div className="actions" align = "center">
         <Button
           size="small"
-          color="secondary"
+          className="deletBtn"
           variant="contained"
           onClick={handleEmptyBasket}
           startIcon={<Delete />}

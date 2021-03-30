@@ -86,7 +86,7 @@ const CustomCard = ({
             <>
               <Button
                 size="small"
-                color="secondary"
+                className="secondary"
                 variant="outlined"
                 onClick={() => {
                   updateProduct(product.id, product.quantity - 1);

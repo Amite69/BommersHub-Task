@@ -61,6 +61,7 @@ p.MuiTypography-root.basket-item-price.MuiTypography-body1 {
   flex-grow: 1;
 }
 
+
 .actions-content .custom-button {
   font-family: 'Raleway', sans-serif;
   font-size: 11px;
@@ -90,7 +91,8 @@ p.MuiTypography-root.basket-item-price.MuiTypography-body1 {
   margin-right: 10px;
 }
 
-.custom-card .increase-product-quantity {
-  color: #03dac5;
-  border-color: #03dac5;
+.custom-card .increase-product-quantity,
+.custom-card .secondary {
+  color: #474747;
+  border-color: #474747;
 }
